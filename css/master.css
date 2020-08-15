@@ -2,6 +2,7 @@
 
 :root{
   --main-bg-color: #333;
+  --seccondary-bg-color: #474747;
 }
 
 body {
@@ -125,6 +126,17 @@ li a:hover {
   width: 800px;
   text-align: center;
   color: white;
+}
+
+.package{
+	margin: 3px;
+	display: inline-block;
+	background-color: var(--seccondary-bg-color);
+	border-radius: 30px;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	color: white;
 }
 
 .footer{
