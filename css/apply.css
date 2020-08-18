@@ -39,7 +39,7 @@ ul {
   overflow: hidden;
   background-color: var(--main-bg-color);
   border-radius: 100px;
-  width: 292.5px;
+  width: 129.9px;
 }
 
 li {
@@ -53,6 +53,10 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+a:hover {
+  background-color: #111;
+  border-radius: 100px;
 }
 
 li a:hover {
@@ -116,6 +120,25 @@ li a:hover {
   border-radius: 100px;
 }
 .active:hover{
+  background-color: #3c783e;
+}
+
+.applyBTN {
+  display: block;
+  width: 100px;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0 auto;
+  /*background-color: #4CAF50;*/
+  border-color: #4CAF50;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100px;
+  text-decoration: none;
+}
+.applyBTN:hover{
   background-color: #3c783e;
 }
 
