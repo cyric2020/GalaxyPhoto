@@ -34,12 +34,19 @@ h4{
 
 ul {
   list-style-type: none;
+  display: inline-block;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
   background-color: var(--main-bg-color);
   border-radius: 100px;
-  width: 129.9px;
+  width: auto;
+}
+
+.holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 li {
